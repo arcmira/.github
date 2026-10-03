@@ -1,23 +1,32 @@
-# Arcmira
+# Arcmira: YouTube Transcript Search
 
-Arcmira is an SF-based AI company and the search engine for the spoken web. It indexes podcasts, interviews, and long-form YouTube video, and maps who appears where, what they discuss, and which brands are mentioned.
+[API documentation](https://arcmira.com/docs) · [OpenAPI specification](https://api.arcmira.com/v1/openapi.json) · [Get an API key](https://arcmira.com/developers)
 
-## Use Arcmira from your AI assistant: the MCP server
+Give your AI the ability to find who said what with timestamps, discover what's being discussed across videos and livestreams, and distinguish organic recommendations from sponsored ad reads.
 
-The official Arcmira MCP server is **[arcmira/mcp](https://github.com/arcmira/mcp)**. It gives Claude, ChatGPT, Cursor, Codex, and any other MCP client read-only tools over indexed YouTube and podcast transcripts: the full transcript of a video, transcript search, mentions, momentum, sponsors, sponsored and organic recommendations, and the newest episodes of a show.
+## Build with Arcmira
 
-```bash
+| Interface | Start here |
+| --- | --- |
+| HTTP API | [Search, transcripts and monitors](https://arcmira.com/docs) |
+| TypeScript SDK and CLI | [arcmira/arcmira](https://github.com/arcmira/arcmira) |
+| Python SDK | [arcmira/python](https://github.com/arcmira/python) |
+| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) |
+
+## Connect your AI
+
+Add the hosted MCP server to Claude Code:
+
+```sh
 claude mcp add --transport http arcmira https://mcp.arcmira.com/mcp
 ```
 
-- What it does: https://arcmira.com/mcp
-- Setup for each host: https://arcmira.com/agent-setup
-- Reference: https://arcmira.com/docs/mcp-server
+For ChatGPT, Cursor, Codex and other clients, use the [setup guide](https://arcmira.com/agent-setup). Try this prompt:
 
-## Use the HTTP API
+```text
+Find recent discussions of open-source AI on YouTube. Show the relevant quotes, speakers where identified, and timestamped source links. Note any coverage gaps.
+```
 
-The same index is served as a JSON API at `https://api.arcmira.com/v1`. It covers search, monitors that alert you by email, Slack, or webhook when an entity is mentioned in new media, and transcripts.
+Research follows your account's access and usage limits. The MCP server also supports Premium transcript preparation and authorized monitor changes. Premium preparation can use credits or paid usage; these are not read-only operations. See the [MCP reference](https://arcmira.com/docs/mcp-server) for capabilities and account controls.
 
-- Docs: https://arcmira.com/docs
-- Developer portal: https://arcmira.com/developers
-- Agent index: https://arcmira.com/llms.txt
+Arcmira is an SF-based AI company and the search engine for the spoken web.
