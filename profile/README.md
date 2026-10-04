@@ -27,6 +27,6 @@ For ChatGPT, Cursor, Codex and other clients, use the [setup guide](https://arcm
 Find recent discussions of open-source AI on YouTube. Show the relevant quotes, speakers where identified, and timestamped source links. Note any coverage gaps.
 ```
 
-Research follows your account's access and usage limits. The MCP server also supports Premium transcript preparation and authorized monitor changes. Premium preparation can use credits or paid usage; these are not read-only operations. See the [MCP reference](https://arcmira.com/docs/mcp-server) for capabilities and account controls.
+Paid reads, Premium transcripts included, use credits from your plan, then your on-demand budget. Monitor changes need write access. See the [MCP reference](https://arcmira.com/docs/mcp-server).
 
 Arcmira is an SF-based AI company and the search engine for the spoken web.
