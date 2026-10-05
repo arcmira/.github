@@ -12,7 +12,8 @@ Give your AI the ability to find who said what with timestamps, discover what's 
 | TypeScript SDK and CLI | [arcmira/arcmira](https://github.com/arcmira/arcmira) |
 | Python SDK | [arcmira/python](https://github.com/arcmira/python) |
 | MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) |
-| Agent and workflow integrations | [Source previews](https://github.com/arcmira/integrations) |
+| LangChain and LangGraph for Python | [PyPI package](https://pypi.org/project/langchain-arcmira/) · [Quick start](https://github.com/arcmira/integrations/tree/master/packages/langchain-python) |
+| Agent and workflow integrations | [Packages and previews](https://github.com/arcmira/integrations) |
 
 ## Connect your AI
 
