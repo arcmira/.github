@@ -13,7 +13,7 @@ Give your AI the ability to find who said what with timestamps, discover what's 
 | CLI with Homebrew | [Install from Arcmira's tap](https://github.com/arcmira/integrations/tree/master/Formula) |
 | CLI with Nix | [Build from the official source release](https://github.com/arcmira/integrations/tree/master/nix) |
 | Python SDK | [arcmira/python](https://github.com/arcmira/python) |
-| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) |
+| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse six skills](https://skillrepo.dev/skills/arcmira) |
 | LangChain and LangGraph for Python | [PyPI package](https://pypi.org/project/langchain-arcmira/) · [Quick start](https://github.com/arcmira/integrations/tree/master/packages/langchain-python) |
 | Agent and workflow integrations | [Packages and previews](https://github.com/arcmira/integrations) |
 
