@@ -1,6 +1,6 @@
 # Arcmira: YouTube Transcript Search
 
-[API documentation](https://arcmira.com/docs) · [OpenAPI specification](https://api.arcmira.com/v1/openapi.json) · [Get an API key](https://arcmira.com/developers)
+[Arcmira](https://arcmira.com) · [API documentation](https://arcmira.com/docs) · [OpenAPI specification](https://api.arcmira.com/v1/openapi.json) · [Get an API key](https://arcmira.com/developers)
 
 Give your AI the ability to find who said what with timestamps, discover what's being discussed across videos and livestreams, and distinguish organic recommendations from sponsored ad reads.
 
