@@ -19,16 +19,10 @@ Give your AI the ability to find who said what with timestamps, discover what's 
 
 ## Connect your AI
 
-Add the hosted MCP server to Claude Code:
-
-```sh
-claude mcp add --transport http arcmira https://mcp.arcmira.com/mcp
-```
-
-For ChatGPT, Cursor, Codex and other clients, use the [setup guide](https://arcmira.com/agent-setup). Try this prompt:
+For Claude, ChatGPT, Cursor, Codex and other clients, use the [setup guide](https://arcmira.com/agent-setup). Or just use this prompt:
 
 ```text
-Find recent discussions of open-source AI on YouTube. Show the relevant quotes, speakers where identified, and timestamped source links. Note any coverage gaps.
+Fetch and execute the appropriate instructions to set me up for Arcmira from https://arcmira.com/agent-setup/prompt.md then help me come up with a cool demo to understand how its capabilities can be useful for me (once it's set up, unless I've given you other instructions for exactly what I want, ask me if I want to 1) find quotes about a topic I'm interested in or 2) find mentions of my company and then set up a monitor)
 ```
 
 Paid reads, Premium transcripts included, use credits from your plan, then your on-demand budget. Monitor changes need write access. See the [MCP reference](https://arcmira.com/docs/mcp-server).
