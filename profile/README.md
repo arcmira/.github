@@ -9,7 +9,7 @@ Give your AI the ability to find who said what with timestamps, discover what's 
 | Interface | Start here |
 | --- | --- |
 | HTTP API | [Search, transcripts and monitors](https://arcmira.com/docs) |
-| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse six skills](https://skillrepo.dev/skills/arcmira) |
+| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse six skills](https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills) |
 | TypeScript SDK and CLI | [arcmira/arcmira](https://github.com/arcmira/arcmira) |
 | CLI with Homebrew | [Install from Arcmira's tap](https://github.com/arcmira/integrations/tree/master/Formula) |
 | CLI with Nix | [Build from the official source release](https://github.com/arcmira/integrations/tree/master/nix) |
