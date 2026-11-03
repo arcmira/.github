@@ -6,16 +6,18 @@ Give your AI the ability to find who said what with timestamps, discover what's 
 
 ## Build with Arcmira
 
+The [transcript search API](https://arcmira.com/docs/search) searches indexed YouTube and podcast transcripts for a word or phrase. Each match includes the passage and a timestamped source link. [Play the quote timeline](https://arcmira.github.io/integrations/quote-timeline/) to hear passages from five videos about vibe coding.
+
 | Interface | Start here |
 | --- | --- |
 | HTTP API | [Search, transcripts and monitors](https://arcmira.com/docs) |
 | MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse six skills](https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills) |
-| TypeScript SDK and CLI | [arcmira/arcmira](https://github.com/arcmira/arcmira) |
+| TypeScript SDK and CLI | [npm package](https://www.npmjs.com/package/arcmira) · [SDK and CLI guide](https://github.com/arcmira/arcmira) |
 | CLI with Homebrew | [Install from Arcmira's tap](https://github.com/arcmira/integrations/tree/master/Formula) |
 | CLI with Nix | [Build from the official source release](https://github.com/arcmira/integrations/tree/master/nix) |
-| Python SDK | [arcmira/python](https://github.com/arcmira/python) |
+| Python SDK | [PyPI package](https://pypi.org/project/arcmira/) · [Python SDK guide](https://github.com/arcmira/python) |
 | LangChain and LangGraph for Python | [PyPI package](https://pypi.org/project/langchain-arcmira/) · [Quick start](https://github.com/arcmira/integrations/tree/master/packages/langchain-python) |
-| Agent and workflow integrations | [Packages and previews](https://github.com/arcmira/integrations) |
+| Agent and workflow integrations | [Examples and workflow downloads](https://arcmira.github.io/integrations/) · [Source](https://github.com/arcmira/integrations) |
 
 ## Connect your AI
 
