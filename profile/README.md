@@ -2,7 +2,7 @@
 
 [Arcmira](https://arcmira.com) · [API documentation](https://arcmira.com/docs) · [OpenAPI specification](https://api.arcmira.com/v1/openapi.json) · [Get an API key](https://arcmira.com/developers)
 
-Give your AI the ability to find who said what with timestamps, discover what's being discussed across videos and livestreams, and distinguish organic recommendations from sponsored ad reads.
+YouTube transcript search and monitoring for your AI. Arcmira understands YouTube and podcasts like it watched them: the exact quote, often who said it, the full transcript and sponsors.
 
 ## Build with Arcmira
 
@@ -11,7 +11,7 @@ The [transcript search API](https://arcmira.com/docs/search) searches indexed Yo
 | Interface | Start here |
 | --- | --- |
 | HTTP API | [Search, transcripts and monitors](https://arcmira.com/docs) |
-| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse six skills](https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills) |
+| MCP and agent skills | [arcmira/mcp](https://github.com/arcmira/mcp) · [Browse skills](https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills) |
 | TypeScript SDK and CLI | [npm package](https://www.npmjs.com/package/arcmira) · [SDK and CLI guide](https://github.com/arcmira/arcmira) |
 | CLI with Homebrew | [Install from Arcmira's tap](https://github.com/arcmira/integrations/tree/master/Formula) |
 | CLI with Nix | [Build from the official source release](https://github.com/arcmira/integrations/tree/master/nix) |
@@ -27,6 +27,6 @@ For Claude, ChatGPT, Cursor, Codex and other clients, use the [setup guide](http
 Fetch and execute the appropriate instructions to set me up for Arcmira from https://arcmira.com/agent-setup/prompt.md then help me come up with a cool demo to understand how its capabilities can be useful for me (once it's set up, unless I've given you other instructions for exactly what I want, ask me if I want to 1) find quotes about a topic I'm interested in or 2) find mentions of my company and then set up a monitor)
 ```
 
-Paid reads, Premium transcripts included, use credits from your plan, then your on-demand budget. Monitor changes need write access. See the [MCP reference](https://arcmira.com/docs/mcp-server).
+A paid read uses credits from your plan, then your on-demand budget. Monitor changes need write access. See the [MCP reference](https://arcmira.com/docs/mcp-server).
 
-Arcmira is an SF-based AI company and the search engine for the spoken web.
+Arcmira makes YouTube transcript search and monitoring for your AI. It is an SF-based AI company building the search engine for the spoken web.
